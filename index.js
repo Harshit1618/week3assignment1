@@ -81,42 +81,33 @@ function bclick(){
         }
         else if(twos===2){
             str+=" twenty";
-            found=1;
-
         }
         else if(twos===3){
             str+=" thirty";
-            found=1;
 
         }
         else if(twos===4){
             str+=" fourty";
-            found=1;
 
         }
         else if(twos===5){
             str+=" fifty";
-            found=1;
 
         }
         else if(twos===6){
             str+=" sixty";
-            found=1;
 
         }
         else if(twos===7){
             str+=" seventy";
-            found=1;
 
         }
         else if(twos===8){
             str+=" eighty";
-            found=1;
 
         }
         else if(twos===9){
             str+=" ninty";
-            found=1;
 
         }
 
@@ -124,9 +115,6 @@ function bclick(){
             
             if (ones===1){
                 str+=" one";
-            }
-            else if(ones==0){
-                str+=' zero';   
             }
             else if(ones===2){
                 str+=' two';
@@ -152,6 +140,11 @@ function bclick(){
             }
             else if(ones===9){
                 str+=' nine';
+            }
+            
+            
+            if (txt===0){
+                str+=' zero';
             }
         }
 
