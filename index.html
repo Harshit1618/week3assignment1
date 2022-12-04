@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .temp{
+            margin: 200px auto;
+        background-color: rgb(105, 219, 223);    
+        padding: 40px;
+        border-radius: 1rem;
+        height:min-content;
+        width: 500px;
+        }
+        input{
+            height: 2em;
+            width: 500px;
+            font-size: large;
+        }
+        input::-webkit-input-placeholder {
+        font-size: 20px;
+        }
+        button{
+            width: 500px;
+            height: 3em;
+        }
+        body{
+            background-color: blanchedalmond;
+        }
+    </style>
+    <script src="index.js"></script>    
+</head>
+<body>
+    <div class="temp">
+        <input class="inputText" type="text" size="50" placeholder="Enter text">
+    <br>
+    <br>
+    <button type="button" onclick="bclick()" >convert</button>
+    
+    <br>
+    <br>
+    <input class="output"  value="" type="text">
+    </div>    
+</body>
+</html>
